@@ -23,7 +23,7 @@ if not pcall(function() return syn.protect_gui end) then
 end
 
 --// UI Library \\--
-local Library = loadstring(game:HttpGetAsync('https://pastebin.com/raw/edJT9EGX'))()
+local Library = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/facalz/roblox/main/library/autoClickerBackground.lua'))()
 local Window = Library:CreateWindow("AutoClicker")
 Enabled_1 = Window:AddColor({
     text = 'Status:',
